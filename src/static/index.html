@@ -38,14 +38,16 @@
 
                 <div class="chat-input-container">
                     <div class="input-wrapper">
-                        <textarea 
-                            id="messageInput" 
-                            class="message-input" 
-                            placeholder="Type your message here..."
-                            rows="1"
+                        <textarea type="text" id="clientIdInput" class="message-input" placeholder="Enter your client ID..." rows="2"></textarea>
+                        <textarea
+                                id="messageInput"
+                                class="message-input"
+                                placeholder="Type your message here..."
+                                rows="1"
                         ></textarea>
                         <button id="sendButton" class="send-button" disabled>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2">
                                 <line x1="22" y1="2" x2="11" y2="13"></line>
                                 <polygon points="22,2 15,22 11,13 2,9"></polygon>
                             </svg>
@@ -74,16 +76,6 @@
                                 <h4>Web Search</h4>
                                 <p>Search the internet</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="sidebar-section">
-                    <h3>Recent Activity</h3>
-                    <div class="activity-list" id="activityList">
-                        <div class="activity-item">
-                            <span class="activity-text">Chat session started</span>
-                            <span class="activity-time">Just now</span>
                         </div>
                     </div>
                 </div>
